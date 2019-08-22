@@ -20,14 +20,14 @@ namespace PbPb {
     double findNcollAverage(int hiBinLow, int hiBinHigh)
     {
       // if the bin corresponds to a bin we already know, give the official number from https://twiki.cern.ch/twiki/bin/view/CMS/GlauberTables
-      if (hiBinLow==0&&hiBinHigh==20) return 23.22;
-      if (hiBinLow==20&&hiBinHigh==40) return 14.35;
-      if (hiBinLow==40&&hiBinHigh==60) return 8.660;
-      if (hiBinLow==60&&hiBinHigh==80) return 4.978;
-      if (hiBinLow==80&&hiBinHigh==100) return 2.660;
-      if (hiBinLow==100&&hiBinHigh==200) return 0.4395;
-      if (hiBinLow==20&&hiBinHigh==60) return 11.51;
-      if (hiBinLow==60&&hiBinHigh==200) return 1.405;
+      if (hiBinLow==0&&hiBinHigh==20) return 1626;
+      if (hiBinLow==20&&hiBinHigh==40) return 1005;
+      if (hiBinLow==40&&hiBinHigh==60) return 606.2;
+      if (hiBinLow==60&&hiBinHigh==80) return 348.5;
+      if (hiBinLow==80&&hiBinHigh==100) return 186.2;
+      if (hiBinLow==100&&hiBinHigh==200) return 30.76;
+      if (hiBinLow==20&&hiBinHigh==60) return 805.4;
+      if (hiBinLow==60&&hiBinHigh==200) return 98.36;
       if (hiBinLow==0&&hiBinHigh==10) return 1819;
       if (hiBinLow==10&&hiBinHigh==20) return 1432;
       if (hiBinLow==20&&hiBinHigh==30) return 1127;
